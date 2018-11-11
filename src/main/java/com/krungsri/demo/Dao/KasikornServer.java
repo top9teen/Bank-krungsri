@@ -29,7 +29,7 @@ public class KasikornServer {
 						prepared.setString(2, carMake2);
 						ResultSet rs = prepared.executeQuery();
 						while (rs.next()) {
-							kabean.setKrPrice(rs.getInt("kr_price"));
+							kabean.setKrPrice(rs.getString("kr_price"));
 							
 						}
 					} catch (Exception e) {

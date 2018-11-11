@@ -6,7 +6,7 @@ public class KrungsriPriceBean {
 	private int krId;
 	private String yeYear;
 	private String brName;
-	private int krPrice;
+	private String krPrice;
 	public int getKrId() {
 		return krId;
 	}
@@ -25,10 +25,10 @@ public class KrungsriPriceBean {
 	public void setBrName(String brName) {
 		this.brName = brName;
 	}
-	public int getKrPrice() {
+	public String getKrPrice() {
 		return krPrice;
 	}
-	public void setKrPrice(int krPrice) {
+	public void setKrPrice(String krPrice) {
 		this.krPrice = krPrice;
 	}
 	
